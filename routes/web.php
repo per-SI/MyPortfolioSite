@@ -56,15 +56,15 @@ Route::group(['middleware'=>'auth'],function(){
 
     Route::get('/orderandreplace/calendar',function(){return view('calendar');});
 
-    Route::get('/orderandreplace/moveWall/{shop}/{wall}','App\HTTP\Controllers\ORController@moveWall');
+    Route::get('/orderandreplace/moveWall/{shop}/{wall}','App\Http\Controllers\ORController@moveWall');
 
-    Route::get('/orderandreplace/getStickerRanking/{startDate}/{endDate}','App\HTTP\Controllers\ORController@getStickerRanking');
+    Route::get('/orderandreplace/getStickerRanking/{startDate}/{endDate}','App\Http\Controllers\ORController@getStickerRanking');
 
     Route::post('/orderandreplace/createSheet','App\Http\Controllers\ORController@createSheet');
 
     Route::get('/orderandreplace/showSheetList/{shop}','App\Http\Controllers\ORController@showSheetList');
 
-    Route::get('/orderandreplace/selectSheet/{code}','App\HTTP\Controllers\ORController@selectSheet');
+    Route::get('/orderandreplace/selectSheet/{code}','App\Http\Controllers\ORController@selectSheet');
 
 });
 
