@@ -92,7 +92,7 @@ class ORController extends Controller{
             $wallList[] = $walllist[$i]->wall;
         }
 
-        return view("orderAndreplace",compact("shop","new","wallList"));
+        return view("orderANDreplace",compact("shop","new","wallList"));
 
     }
 
