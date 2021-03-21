@@ -654,7 +654,7 @@ class ORController extends Controller{
 
         //SELECT number,sort,sum(quantity),DENSE_RANK() OVER(ORDER BY sum(quantity) DESC)FROM order_items LEFT JOIN order_sheet ON order_sheet.code = code_sales RIGHT JOIN items ON items.code = code_product WHERE date>"2020-12-27" AND date<"2021-01-10 00:33:00" GROUP BY number ORDER BY sum(quantity);
 
-        $query="SELECT number,sum(quantity),DENSE_RANK() OVER(ORDER BY sum(quantity) DESC) AS rank FROM order_items LEFT JOIN order_sheet ON order_sheet.code = code_sales RIGHT JOIN items ON items.code = code_product WHERE date > '".$startDate."' AND date < '".$endDate."' GROUP BY number ORDER BY sum(quantity);";
+        $query="SELECT number,sum(quantity),DENSE_RANK() OVER(ORDER BY sum(quantity) DESC) AS rank FROM order_items LEFT JOIN order_sheet ON order_sheet.code = order_items.code_sales RIGHT JOIN items ON order_items.code_product = items.code WHERE date > '".$startDate."' AND date < '".$endDate."' GROUP BY number ORDER BY sum(quantity);";
         $rankData = DB::select($query);
         echo json_encode($rankData);
     }
