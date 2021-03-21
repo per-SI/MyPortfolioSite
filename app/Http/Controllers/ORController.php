@@ -147,20 +147,6 @@ class ORController extends Controller{
 
         }
 
-        if($ncodes !== "nothing"){
-            $ncode = explode(",",$ncodes);
-            $j = count($ncode);
-
-            $nquery = "UPDATE ".$shop."_items set code= CASE";
-            for( $i=0; $i<$j; ++$i ){
-                $nquery .= " WHEN y=".($i+1)." THEN ".$ncode[$i] ;
-            }
-            $nquery .= " ELSE code END WHERE wall='new';" ;
-
-            DB::update($nquery);
-            $Q[] = $nquery;
-        }
-
         $deleteQuery = "DELETE FROM ".$shop."_items WHERE wall='".$wall."_t';" ;
         DB::delete($deleteQuery);
 
