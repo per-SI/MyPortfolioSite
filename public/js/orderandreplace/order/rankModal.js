@@ -36,7 +36,7 @@ async function getStickerRanking(){
         rankInfo=[];
         let j = res.data.length;
         for(let i=0; i<j; i++){
-            rankInfo.push(new rankInfomation(res.data[i].number,res.data[i].rank));
+            rankInfo.push(new rankInfomation(res.data[i].number,res.data[i].ranking));
             rankInfo[i].setRank();
         }
         closeModal();
