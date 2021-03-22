@@ -9,7 +9,7 @@ export default function Contact(){
             <div className="mail-arrow">↓</div>
             <div className="mail-adress">
                 <div id="iframeWarpper">
-                    <iframe className="contact-form"
+                    <iframe className="contact-forms"
                             src="https://docs.google.com/forms/d/e/1FAIpQLSc75o3789UJhDQ0AmoB5GJOh2aWTjauSWcjV_H0DhQvTVZgdw/viewform?embedded=true"
                             width="640" height="685" frameBorder="0" marginHeight="0" marginWidth="0"
                             scrolling="no"

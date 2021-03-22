@@ -11,3 +11,26 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+### 以下、追記
+/app
+/bootstrap
+/config
+/database
+/public
+!/public/css/PPS
+!/public/js/app.js
+/resources
+!/resources/js
+/resources/js/bootstrap.js
+!/resources/views/app.blade.php
+/storage
+/tests
+.editconfig
+.env.example
+.styleci.yml
+artisan
+composer.*
+package*
+phpunit.xml
+server.php
+webpack.mix.js

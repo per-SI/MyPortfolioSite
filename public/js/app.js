@@ -2067,7 +2067,7 @@ function Contact() {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         id: "iframeWarpper",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("iframe", {
-          className: "contact-form",
+          className: "contact-forms",
           src: "https://docs.google.com/forms/d/e/1FAIpQLSc75o3789UJhDQ0AmoB5GJOh2aWTjauSWcjV_H0DhQvTVZgdw/viewform?embedded=true",
           width: "640",
           height: "685",
