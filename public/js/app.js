@@ -2195,7 +2195,7 @@ function PortFolio() {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "PPS-wrapper",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "work-title",
+        className: "font-arapey work-title",
         children: "P's Portfolio-Site"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "img-lists",
@@ -2229,23 +2229,33 @@ function PortFolio() {
           className: "intro-sentence1",
           children: ["\u3000React\u3067\u3059\u3002\u30D7\u30ED\u30B0\u30E9\u30E0\u306E\u69CB\u6210\u81EA\u4F53\u306F\u672C\u5F53\u306B\u30B7\u30F3\u30D7\u30EB\u306B\u4ED5\u4E0A\u304C\u3063\u3066\u3044\u307E\u3059\u3002", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\u3000\u4F7F\u7528\u30E9\u30A4\u30D6\u30E9\u30EA\u3082\u30B7\u30F3\u30D7\u30EB\u3067\u3001\u52D5\u304D\u3092\u51FA\u3059\u305F\u3081\u306Ereact-transition-group\u3001\u30DA\u30FC\u30B8\u306E\u30EA\u30ED\u30FC\u30C9\u306B\u5BFE\u5FDC\u3059\u308B\u305F\u3081\u306Breact-router-dom\u3092\u4F7F\u3063\u3066\u3044\u307E\u3059\u3002", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\u3000CSS\u3067\u306E\u30EC\u30A4\u30A2\u30A6\u30C8\u306Fgrid\u3092\u7528\u3044\u3066\u3001\u30EC\u30B9\u30DD\u30F3\u30B7\u30D6\u5BFE\u5FDC\u3055\u305B\u3066\u3044\u307E\u3059\u3002"]
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "mysite-link",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "https://p.explanewworld.com/top",
-          children: "TopLink"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "github-ling",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "",
-          children: "GitHub"
-        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "link-wrapper",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "mysite-link",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            className: "anchor1",
+            href: "https://p.explanewworld.com/top",
+            children: "TopLink"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "link-warnings",
+            children: "\u203B\u3053\u306EHP\u3092\u30EA\u30ED\u30FC\u30C9\u3057\u307E\u3059\u3002"
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "github-link",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            className: "anchor2",
+            href: "",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            children: "GitHub"
+          })
+        })]
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "ORS-wrapper",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "work-title",
+        className: "font-arapey work-title",
         children: "ORSystem"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "img-lists",
@@ -2313,18 +2323,30 @@ function PortFolio() {
           className: "intro-sentence2",
           children: ["\u3000\u306F\u3058\u3081\u3066\u4F5C\u3063\u305FWEB\u30A2\u30D7\u30EA\u3067\u3057\u305F\u306E\u3067\u3001\u751F\u306EJavaScript\u3067\u66F8\u304D\u307E\u3057\u305F\u3002\u30BF\u30C3\u30C1\u30C7\u30D0\u30A4\u30B9\u7528\u306E\u30C9\u30E9\u30C3\u30B0\u30A2\u30F3\u30C9\u30C9\u30ED\u30C3\u30D7\u3082\u751F\u306EJS\u3067\u5B9F\u88C5\u3057\u3066\u3044\u307E\u3059\u3002", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\u3000\u30D0\u30C3\u30AF\u30A8\u30F3\u30C9\u306Blaravel\u3001\u30DA\u30FC\u30B8\u306E\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0\u306FBlade\u30C6\u30F3\u30D7\u30EC\u30FC\u30C8\u3067\u3002\u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9\u306FCSS\u3068JS\u3067\u3059\u3002"]
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "mysite-link",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "https://p.explanewworld.com/orderandreplace",
-          children: "\u30C7\u30E2\u30DA\u30FC\u30B8\u3078"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "github-ling",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "",
-          children: "GitHub"
-        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "link-wrapper",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "mysite-link",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            className: "anchor1",
+            href: "https://p.explanewworld.com/orderandreplace",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            children: "\u30C7\u30E2\u30DA\u30FC\u30B8\u3078"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "link-warnings",
+            children: "\u203BID\u3068\u30D1\u30B9\u30EF\u30FC\u30C9\u304C\u5FC5\u8981\u3067\u3059\u3002"
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "github-link",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            className: "anchor2",
+            href: "",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            children: "GitHub"
+          })
+        })]
       })]
     })]
   });

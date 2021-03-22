@@ -4,7 +4,7 @@ export default function PortFolio(){
     return (
         <div className="portfolio-container">
             <div className="PPS-wrapper">
-                <div className="work-title">P's Portfolio-Site</div>
+                <div className="font-arapey work-title">P's Portfolio-Site</div>
                 <div className="img-lists">
                     <div className="work-img PPS-img1"></div>
                     <div className="work-img PPS-img3"></div>
@@ -19,12 +19,14 @@ export default function PortFolio(){
                     <div className="heading1">技術</div>
                     <div className="intro-sentence1">　Reactです。プログラムの構成自体は本当にシンプルに仕上がっています。<br />　使用ライブラリもシンプルで、動きを出すためのreact-transition-group、ページのリロードに対応するためにreact-router-domを使っています。<br />　CSSでのレイアウトはgridを用いて、レスポンシブ対応させています。</div>
                 </div>
-                <div className="mysite-link"><a href="https://p.explanewworld.com/top">TopLink</a></div>
-                <div className="github-ling"><a href="">GitHub</a></div>
+                <div className="link-wrapper">
+                    <div className="mysite-link"><a className="anchor1" href="https://p.explanewworld.com/top">TopLink</a><div className="link-warnings">※このHPをリロードします。</div></div>
+                    <div className="github-link"><a className="anchor2" href="" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+                </div>
             </div>
 
             <div className="ORS-wrapper">
-                <div className="work-title">ORSystem</div>
+                <div className="font-arapey work-title">ORSystem</div>
                 <div className="img-lists">
                     <video className="ORS-mov" autoPlay muted playsInline controls src='/img/portfolio-mov/ORS-mov1.mp4' width="500" height="300"/>
                     <video className="ORS-mov" autoPlay muted playsInline controls src='/img/portfolio-mov/ORS-mov2.mp4' width="500" height="300"/>
@@ -41,8 +43,10 @@ export default function PortFolio(){
                     <div className="heading2">技術</div>
                     <div className="intro-sentence2">　はじめて作ったWEBアプリでしたので、生のJavaScriptで書きました。タッチデバイス用のドラッグアンドドロップも生のJSで実装しています。<br />　バックエンドにlaravel、ページのレンダリングはBladeテンプレートで。フロントエンドはCSSとJSです。</div>
                 </div>
-                <div className="mysite-link"><a href="https://p.explanewworld.com/orderandreplace">デモページへ</a></div>
-                <div className="github-ling"><a href="">GitHub</a></div>
+                <div className="link-wrapper">
+                    <div className="mysite-link"><a className="anchor1" href="https://p.explanewworld.com/orderandreplace" target="_blank" rel="noopener noreferrer">デモページへ</a><div className="link-warnings">※IDとパスワードが必要です。</div></div>
+                    <div className="github-link"><a className="anchor2" href="" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+                </div>
             </div>
         </div>
     );
