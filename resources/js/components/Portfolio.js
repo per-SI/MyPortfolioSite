@@ -21,7 +21,7 @@ export default function PortFolio(){
                 </div>
                 <div className="link-wrapper">
                     <div className="mysite-link"><a className="anchor1" href="https://p.explanewworld.com/top">TopLink</a><div className="link-warnings">※このHPをリロードします。</div></div>
-                    <div className="github-link"><a className="anchor2" href="" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+                    <div className="github-link"><a className="anchor2" href="https://github.com/per-SI/MyPortfolioSite" target="_blank" rel="noopener noreferrer">GitHub</a></div>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@ export default function PortFolio(){
                 </div>
                 <div className="link-wrapper">
                     <div className="mysite-link"><a className="anchor1" href="https://p.explanewworld.com/orderandreplace" target="_blank" rel="noopener noreferrer">デモページへ</a><div className="link-warnings">※IDとパスワードが必要です。</div></div>
-                    <div className="github-link"><a className="anchor2" href="" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+                    <div className="github-link"><a className="anchor2" href="https://github.com/per-SI/ORSystem_toThePublic.git" target="_blank" rel="noopener noreferrer">GitHub</a></div>
                 </div>
             </div>
         </div>

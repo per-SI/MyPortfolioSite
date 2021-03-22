@@ -2245,7 +2245,7 @@ function PortFolio() {
           className: "github-link",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             className: "anchor2",
-            href: "",
+            href: "https://github.com/per-SI/MyPortfolioSite",
             target: "_blank",
             rel: "noopener noreferrer",
             children: "GitHub"
@@ -2341,7 +2341,7 @@ function PortFolio() {
           className: "github-link",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             className: "anchor2",
-            href: "",
+            href: "https://github.com/per-SI/ORSystem_toThePublic.git",
             target: "_blank",
             rel: "noopener noreferrer",
             children: "GitHub"
