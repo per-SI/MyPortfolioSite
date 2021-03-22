@@ -16,7 +16,15 @@ yarn-error.log
 /config
 /database
 /public/*
+!/public/css
+/public/css/*
+!public/css/PPS
+!/public/css/app.css
 /resources/*
+!/resources/js
+!/resources/views
+/resources/views/*
+!/resources/views/app.blade.php
 /routes
 /storage
 /tests
@@ -29,8 +37,3 @@ package*
 phpunit.xml
 server.php
 webpack.mix.js
-!/public/css/PPS
-!/public/css/app.css
-!/resources/js
-/resources/js/bootstrap.js
-!/resources/views/app.blade.php
