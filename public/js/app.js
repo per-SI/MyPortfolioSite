@@ -2056,7 +2056,7 @@ function Contact() {
       children: "Contact"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "contact-message",
-      children: ["\u3054\u8CEA\u554F\u3084\u3054\u76F8\u8AC7\u7B49\u3054\u3056\u3044\u307E\u3057\u305F\u3089\u3001\u3053\u3061\u3089\u306E\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u306B\u304A\u9858\u3044\u3057\u307E\u3059\u3002", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\u3054\u5185\u5BB9\u3092\u78BA\u8A8D\u3057\u307E\u3057\u305F\u3089\u3001\u8FD4\u4FE1\u3044\u305F\u3057\u307E\u3059\u306E\u3067\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002"]
+      children: ["\u3054\u8CEA\u554F\u3084\u3054\u76F8\u8AC7\u7B49\u3054\u3056\u3044\u307E\u3057\u305F\u3089\u3001\u4EE5\u4E0B\u306E\u30D5\u30A9\u30FC\u30E0\u304B\u3089\u304A\u554F\u3044\u5408\u308F\u305B\u304A\u9858\u3044\u3057\u307E\u3059\u3002", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "\u3054\u5185\u5BB9\u3092\u78BA\u8A8D\u3057\u307E\u3057\u305F\u3089\u3001\u8FD4\u4FE1\u3044\u305F\u3057\u307E\u3059\u306E\u3067\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002"]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "mail-icon"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -2064,7 +2064,20 @@ function Contact() {
       children: "\u2193"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "mail-adress",
-      children: "per315ing@gmail.com"
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        id: "iframeWarpper",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("iframe", {
+          className: "contact-form",
+          src: "https://docs.google.com/forms/d/e/1FAIpQLSc75o3789UJhDQ0AmoB5GJOh2aWTjauSWcjV_H0DhQvTVZgdw/viewform?embedded=true",
+          width: "640",
+          height: "685",
+          frameBorder: "0",
+          marginHeight: "0",
+          marginWidth: "0",
+          scrolling: "no",
+          children: "Loading\u2026"
+        })
+      })
     })]
   });
 }

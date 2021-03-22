@@ -1,5 +1,4 @@
 .contact{
-    overflow: unset;
     background-color: rgba(255,255,235,0.97);
 }
 
@@ -7,9 +6,7 @@
     display: grid;
     text-align: center;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: inherit;
+    top: 25%;
 }
 
 .contact-title{
@@ -38,11 +35,12 @@
 }
 
 .mail-arrow{
-    font-size: larger;
+    margin-top:5%;
+    font-size: xx-large;
 }
 
 .mail-adress{
-    font-size: 30px;
+    margin-top: 10%;
 }
 
 @media screen and (max-width:800px){
@@ -59,17 +57,17 @@
     }
 
     .mail-icon{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         margin: 20px 10px 10px 0;
-    }
-
-    .mail-arrow{
-        font-size: larger;
     }
 
     .mail-adress{
         font-size: 20px;
+    }
+
+    .contact-form{
+        width:fit-content;
     }
 
 }
