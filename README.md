@@ -4,9 +4,9 @@
  
 　デザインは、各モーダルそれぞれを直感的に認識できればと、背景色の色分けをしました。
  
-  動きに関しては、React Transition GroupとCSSで実装し、リロードに関しては、React RouterのHashRouterで対応しています。
+　動きに関しては、React Transition GroupとCSSで実装し、リロードに関しては、React RouterのHashRouterで対応しています。
   
-  レスポンシブ対応もしています。
+　レスポンシブ対応もしています。
 
 #### リンク＆参考画像
 　https://p.explanewworld.com/
