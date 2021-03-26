@@ -1,8 +1,8 @@
 ## 概要
 #### ポートフォリオサイトです
- Reactで作った、シンプルなデザイン、シンプルな動きのポートフォリオサイトです。
- デザインに関しては、各モーダルそれぞれを直感的に認識できればと、背景色の色分けをしました。
- 動きは、React Transition GroupとCSSで実装し、リロードに関しては、React RouterのHashRouterで対応しました。
+　Reactで作った、シンプルなデザイン、シンプルな動きのポートフォリオサイトです。
+ 
+　デザインに関しては、各モーダルそれぞれを直感的に認識できればと、背景色の色分けをしました。動きは、React Transition GroupとCSSで実装し、リロードに関しては、React RouterのHashRouterで対応しました。
 
 #### リンク＆参考動画
 　https://p.explanewworld.com/
