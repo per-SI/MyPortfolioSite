@@ -6,7 +6,7 @@
  
 　動きに関しては、React Transition GroupとCSSで実装し、リロードに関しては、React RouterのHashRouterで対応しています。
   
-　レスポンシブ対応もしています。
+　レスポンシブ対応◎
 
 #### リンク＆参考画像
 　https://p.explanewworld.com/
