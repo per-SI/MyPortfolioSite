@@ -20,7 +20,7 @@
 - React
 - CSS3
 - Bootstrap5
-- Laravel(laravel/ui)
+- Laravel8.0(laravel/ui)
 - AWS
   - VPC
   - EC2(t2.micro, Apache)
