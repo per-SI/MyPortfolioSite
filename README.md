@@ -10,6 +10,7 @@
 
 #### リンク＆参考画像
 　https://p.explanewworld.com/
+ ※現在は公開しておりません。
  
 
  <img width="350" height="200" alt="PPS-img1" src="https://user-images.githubusercontent.com/78603215/112627553-1f288880-8e75-11eb-9f3b-4b123ea50bd0.png"> <img width="100" height="180" alt="PPS-img2" src="https://user-images.githubusercontent.com/78603215/112627565-22237900-8e75-11eb-860b-f9d06c161b0a.png"> 
